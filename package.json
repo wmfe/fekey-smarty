@@ -1,0 +1,23 @@
+{
+  "name": "fekey-smarty",
+  "version": "1.0.1",
+  "description": "Support Smarty end template engine in fekey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmfe/fekey-smarty.git"
+  },
+  "keywords": [
+    "fekey",
+    "smarty"
+  ],
+  "author": "flippyxu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmfe/fekey-smarty/issues"
+  },
+  "homepage": "https://github.com/wmfe/fekey-smarty#readme"
+}
