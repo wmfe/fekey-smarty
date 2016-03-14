@@ -109,7 +109,7 @@ module.exports = function(fis, isMount) {
         useHash: true,
         isJsLike: true
     },
-    '{package.json, build.sh}' : {
+    '{package.json, build.sh, build.dev.sh}' : {
         release : false
     }
   };
