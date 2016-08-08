@@ -26,7 +26,7 @@ module.exports = function(fis, isMount) {
     '*.{js,css,less}': {
       useHash: true
     },
-    '*.js': {
+    '*.{js,jsx}': {
       optimizer: fis.plugin('uglify-js')
     },
     '*.less': {
