@@ -88,7 +88,7 @@ module.exports = function(fis, isMount) {
       release: '/$1/${namespace}/$2'
     },
     '${namespace}-map.json': {
-      release: '/config/$0'
+      release: '/data/config/$0'
     },
     '*.sh': {
       release: '$0'
