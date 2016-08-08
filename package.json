@@ -1,6 +1,6 @@
 {
   "name": "fekey-smarty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Support Smarty end template engine in fekey",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,19 @@
     "fekey",
     "smarty"
   ],
+  "dependencies": {
+    "fis3-preprocessor-extlang": "1.1.4",
+    "fis-prepackager-widget-inline": "0.0.9",
+    "fis-optimizer-smarty-xss": "0.1.4",
+    "fis-optimizer-html-compress": "0.0.7",
+    "fis-parser-bdtmpl": "0.0.3",
+    "fis-parser-utc": "0.0.2",
+    "fis-parser-less": "0.1.2",
+    "fis-parser-po": "0.0.1",
+    "fis-prepackager-js-i18n": "0.0.2",
+    "fis3-hook-commonjs": "0.1.22",
+    "fis3-server-smarty": "0.0.6"
+  },
   "author": "flippyxu",
   "license": "ISC",
   "bugs": {
