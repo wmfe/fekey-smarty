@@ -1,6 +1,6 @@
 {
   "name": "fekey-smarty",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Support Smarty end template engine in fekey",
   "main": "index.js",
   "scripts": {
