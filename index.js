@@ -21,7 +21,7 @@ module.exports = function(fis, isMount) {
   var matchRules = {
     // all release to $static dir 
     '*': {
-      release: '/webroot/${static}/${namespace}/$0'
+      release: '/${static}/${namespace}/$0'
     },
     '*.{js,css,less}': {
       useHash: true
@@ -76,7 +76,7 @@ module.exports = function(fis, isMount) {
       release: '/server-conf/${namespace}.conf'
     },
     '/static/(**)': {
-      release: '/webroot/${static}/${namespace}/$1'
+      release: '/${static}/${namespace}/$1'
     },
     // test & config
     '/(test)/(**)': {
