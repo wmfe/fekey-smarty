@@ -57,7 +57,7 @@ module.exports = function(fis, isMount) {
       useMap: true,
       release: '/${template}/${namespace}/$1'
     },
-    '*.{tpl,js,es6}': {
+    '*.{tpl,js,es6,jsx,es}': {
       useSameNameRequire: true
     },
     // page dir
